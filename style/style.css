@@ -68,4 +68,17 @@ body {
   -webkit-animation-delay: 400ms;
           animation-delay: 400ms;
 }
+
+.card__body--breif {
+  margin: 0;
+  padding: 0;
+  -webkit-animation: fade-in 500ms ease-out forwards;
+          animation: fade-in 500ms ease-out forwards;
+  -webkit-animation-delay: 500ms;
+          animation-delay: 500ms;
+}
+
+.card__footer {
+  padding: 0 24px 24px 24px;
+}
 /*# sourceMappingURL=style.css.map */

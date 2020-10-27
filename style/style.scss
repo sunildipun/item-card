@@ -55,7 +55,16 @@ body {
             font: 700 normal 150%/1 'Playfair Display', serif;
             animation: fade-in 500ms ease-out forwards;
             animation-delay: 400ms;
-        
+        }
+
+        &--breif {
+            margin: 0; padding: 0;
+            animation: fade-in 500ms ease-out forwards;
+            animation-delay: 500ms;
           }
+    }
+
+    &__footer {
+        padding: 0 24px 24px 24px;
     }
 }
